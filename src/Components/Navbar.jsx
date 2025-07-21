@@ -30,8 +30,8 @@ const Navbar = () => {
                   
                     <div className='w-full lg:w-2/7 relative'>
                         <div className='flex items-center gap-x-2'>
-                            <div>
-                                <FaListUl ref={cateRef} className='cursor-pointer' />
+                            <div
+                                 ref={cateRef} className='cursor-pointer' />
                             </div>
                             <h2 className='font-dm'>Shop by Category</h2>
                         </div>
