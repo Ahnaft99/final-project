@@ -22,7 +22,7 @@ const Navbar = () => {
             setAccShow(false)
         }
     })
-   }, [show])
+   }, [show, accshow] )
   return (
     <div className='bg-[#F5F5F3] py-3'>
         <Container>
