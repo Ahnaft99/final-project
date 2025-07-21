@@ -38,27 +38,27 @@ const Navbar = () => {
            
            <div className='py-3 bg-[#262626] absolute left-0 top-[33px] w-full'>
             <ul className='gap-x-2'>
-                <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out'>
+                <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out cursor-pointer'>
                     <div className='flex justify-between'>
                       <span>Accesories</span> <IoChevronForward />
                       </div></li>
-                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out'>
+                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out cursor-pointer'>
                     <div className='flex justify-between'>
                       <span>Furniture</span> <IoChevronForward />
                       </div></li>
-                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out'>
+                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out cursor-pointer'>
                     <div className='flex justify-between'>
                       <span>Electronics</span> <IoChevronForward />
                       </div></li>
-                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out'>
+                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out cursor-pointer'>
                     <div className='flex justify-between'>
                       <span>Clothes</span> <IoChevronForward />
                       </div></li>
-                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out'>
+                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out cursor-pointer'>
                     <div className='flex justify-between'>
                       <span>Bags</span> <IoChevronForward />
                       </div></li>
-                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out'>
+                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out cursor-pointer'>
                     <div className='flex justify-between'>
                       <span>Home appliances</span> <IoChevronForward />
                       </div></li>
