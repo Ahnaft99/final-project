@@ -58,7 +58,7 @@ const Navbar = () => {
                     <div className='flex justify-between'>
                       <span>Bags</span> <IoChevronForward />
                       </div></li>
-                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out cursor-pointer'>
+                      <li className='text-[rgba(255,255,255,0.7)] font-dm items-center pr-2 border-b-[1px] border-[#D8D8D8] pl-[20px] hover:pl-[30px] duration-300 ease-in-out cursor-pointerg'>
                     <div className='flex justify-between'>
                       <span>Home appliances</span> <IoChevronForward />
                       </div></li>
@@ -95,8 +95,8 @@ const Navbar = () => {
             {accshow &&
               <div className='bg-[#fff] text-[#262626]  absolute left-0 top-[33px] w-full'>
                 <ul>
-                    <li className='hover:bg-[#262626] hover:text-[#fff] duration-300 ease-in-out font-dm py-2 text-center'>My Account</li>
-                    <li className='hover:bg-[#262626] hover:text-[#fff] duration-300 ease-in-out font-dm py-2 text-center'>Login</li>
+                    <li className='hover:bg-[#262626] hover:text-[#fff] duration-300 ease-in-out font-dm py-2 text-center cursor-pointer'>My Account</li>
+                    <li className='hover:bg-[#262626] hover:text-[#fff] duration-300 ease-in-out font-dm py-2 text-center cursor-pointer'>Login</li>
                 </ul>
               </div>
              }

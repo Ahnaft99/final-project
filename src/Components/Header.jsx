@@ -23,11 +23,11 @@ const Header = () => {
               ${menu == true ? "bg-[#262626] h-[0px] opacity-0 overflow-hidden" 
               : "bg-[silver] h-[200px] opacity-100"} 
               lg:bg-transparent lg:h-auto lg:opacity-100 lg:overflow-visible`}>
-              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out'>Home</li>
-              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out'>Shop</li>
-              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out'>About</li>
-              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out'>Contact</li>
-              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out'>Journal</li>
+              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out cursor-pointer'>Home</li>
+              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out cursor-pointer'>Shop</li>
+              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out cursor-pointer'>About</li>
+              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out cursor-pointer'>Contact</li>
+              <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out cursor-pointer'>Journal</li>
             </ul>
           </div>
           <div className='lg:hidden absolute top-[10px] right-2' onClick={handleMenu }>
