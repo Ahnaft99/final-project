@@ -6,6 +6,10 @@ import { RxCross1 } from "react-icons/rx";
 
 const Header = () => {
   let [menu, setMenu] = useState(false);
+    const handleMenu = () => {
+    setMenu(!menu);
+  }
+  
 
   return (
     <header className='py-3'>
@@ -26,7 +30,7 @@ const Header = () => {
               <li className='font-dm text-[16px] text-[#767676] hover:text-[#262626] duration-300 ease-in-out'>Journal</li>
             </ul>
           </div>
-          <div className='lg:hidden absolute top-[10px] right-2' onClick={() => setMenu(!menu)}>
+          <div className='lg:hidden absolute top-[10px] right-2' onClick={handleMenu }>
             {menu ? <RxCross1 /> : <FaBars />}
           </div>
         </div>
