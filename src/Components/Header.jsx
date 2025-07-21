@@ -31,7 +31,7 @@ const Header = () => {
             </ul>
           </div>
           <div className='lg:hidden absolute top-[10px] right-2' onClick={handleMenu }>
-            {menu ? <RxCross1 /> : <FaBars />}
+            {menu ? <FaBars /> : <RxCross1 />}
           </div>
         </div>
       </Container>
