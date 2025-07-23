@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Container from './Container'
-import { FaCaretDown, FaListUl, FaSearch, FaShoppingCart, FaUser } from 'react-icons/fa'
+import { FaCaretDown, FaSearch, FaShoppingCart, FaUser } from 'react-icons/fa'
 import { IoChevronForward } from 'react-icons/io5'
 
 const Navbar = () => {
