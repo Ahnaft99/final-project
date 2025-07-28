@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Container from './Container'
 import { FaCaretDown, FaListUl, FaSearch, FaShoppingCart, FaUser } from 'react-icons/fa'
 import { IoChevronForward } from 'react-icons/io5'
+import { AiOutlineBars } from 'react-icons/ai'
 
 const Navbar = () => {
     let cateRef = useRef()
@@ -30,8 +31,10 @@ const Navbar = () => {
                   
                     <div className='w-full lg:w-2/7 relative'>
                         <div className='flex items-center gap-x-2'>
-                            <div>
-                                <FaListUl ref={cateRef} className='cursor-pointer' />
+                            <div
+                                 ref={cateRef} className='cursor-pointer' >
+                                    <AiOutlineBars />
+
                             </div>
                             <h2 className='font-dm'>Shop by Category</h2>
                         </div>
