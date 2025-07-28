@@ -32,7 +32,7 @@ const Banner = () => {
               width: "30px",
               color: "transparent",
               borderRight: "2px #FFFFFF solid",
-              padding: "10px 0"
+              padding: "10px"
             }}
           >
             0{i + 1}
