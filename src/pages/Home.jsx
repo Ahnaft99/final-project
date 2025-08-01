@@ -4,6 +4,7 @@ import Navbar from '../Components/Navbar'
 import Banner from '../Components/Banner'
 import Three from '../Components/Three'
 import Offer from '../Components/Offer'
+import Arrival from '../Components/Arrival'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
    <Banner/>
    <Three/>
    <Offer/>
+   <Arrival/>
    </>
   )
 }
