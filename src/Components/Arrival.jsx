@@ -1,12 +1,16 @@
-import React, { useRef } from 'react' // ✅ added useRef
+import React, { useContext, useRef } from 'react' 
 import Container from './Container'
-import ad4 from '../assets/ad-4.png'
+
 import Slider from 'react-slick';
 import { FiArrowRightCircle } from 'react-icons/fi';
 import { LuCircleArrowLeft } from 'react-icons/lu';
+import { ApiData } from './ContextApi';
+
 
 const Arrival = () => {
-    const sliderRef = useRef(null); // ✅ slider reference
+
+    let data = useContext (ApiData)
+    const sliderRef = useRef(null); 
 
     const settings = {
         infinite: true,
@@ -21,26 +25,14 @@ const Arrival = () => {
             <Container className='relative'>
                 <h1 className='text-[26px] text-[#262626] font-bold font-dm'>New Arrival</h1>
 
-                {/* ✅ attach the ref here */}
-                <Slider {...settings} ref={sliderRef} className=''>
-                    <div className='w-full'>
-                        <img src={ad4} alt="" />
-                    </div>
-                    <div className='w-full'>
-                        <img src={ad4} alt="" />
-                    </div>
-                    <div className='w-full'>
-                        <img src={ad4} alt="" />
-                    </div>
-                    <div className='w-full'>
-                        <img src={ad4} alt="" />
-                    </div>
-                    <div className='w-full'>
-                        <img src={ad4} alt="" />
-                    </div>
+                 <Slider {...settings} ref={sliderRef}>
+                    {data.map((item) => (
+                       
+                            <img src={item.thumbnail} alt={item.title} />
+                        
+                    ))}
                 </Slider>
-
-                {/* ✅ onClick added */}
+              
                 <div
                     className='absolute top-[50%] left-0'
                     onClick={() => sliderRef.current.slickPrev()}
@@ -48,7 +40,7 @@ const Arrival = () => {
                     <h4 className='text-[50px] text-[#262626] font-bold'><LuCircleArrowLeft /></h4>
                 </div>
 
-                {/* ✅ onClick added */}
+            
                 <div
                     className='absolute top-[50%] right-0'
                     onClick={() => sliderRef.current.slickNext()}
